@@ -1,3 +1,7 @@
+/******************************************************/
+// Loops all collections for a database and rebuilds the indexes
+/*****************************************************/
+
 print (db)
 var collections = db.getCollectionNames().sort();
 var collectionCount = collections.length;
